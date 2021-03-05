@@ -1,6 +1,6 @@
 % \iffalse meta-comment
 %
-%% File: dashundergaps.dtx (C) Copyright 2018-2020 Frank Mittelbach
+%% File: dashundergaps.dtx (C) Copyright 2018-2021 Frank Mittelbach
 %
 % It may be distributed and/or modified under the conditions of the
 % LaTeX Project Public License (LPPL), either version 1.3c of this
@@ -17,8 +17,8 @@
 % for those people who are interested or want to report an issue.
 %
 
-\def\dashundergapsdate   {2020-02-11}    % don't forget to also adjust build.lua!
-\def\dashundergapsversion{v2.0g}
+\def\dashundergapsdate   {2021-03-05}    % don't forget to also adjust build.lua!
+\def\dashundergapsversion{v2.0h}
 
 %<*driver>
 \let\fmipagebreak\pagebreak
@@ -638,9 +638,10 @@
 % We need the package \pkg{xparse} for specifying the document-level
 %    interface commands and \pkg{l3keys2e} to use the \pkg{expl3} key
 %    value  methods within \LaTeXe{}. These packages automatically
-%    require \pkg{expl3} so there is no need to load that explicitly.
+%    require \pkg{expl3} so there is no need to load that explicitly
+%    and nowadays the core of \pkg{xparse} is part of the \LaTeX{} kernel.
 %    \begin{macrocode}
-\RequirePackage{xparse,l3keys2e}
+\RequirePackage{l3keys2e}
 %    \end{macrocode}
 %
 %    As the code uses some functions from \pkg{expl3} that got

@@ -22,23 +22,17 @@ typesetruns   = 4
 
 uploadconfig = {
  pkg = "dashundergaps",
- version = "v2.0g 2020-02-11",
+ version = "v2.0h 2021-03-05",
  author = "Frank Mittelbach",
  license = "lppl1.3c",
  summary = "Produce gaps that are underlined, dotted or dashed",
  ctanPath = "/macros/latex/dashundergaps",
- repository = "https://github.com/FrankMittelbach/fmitex",
- bugtracker = "https://github.com/FrankMittelbach/fmitex/issues",
+ repository = "https://github.com/FrankMittelbach/fmitex-dashundergaps",
+ bugtracker = "https://github.com/FrankMittelbach/fmitex-dashundergaps/issues",
  uploader = "Frank Mittelbach",
  email = "frank.mittelbach@latex-project.org",
  update = true ,
- note = [[Uploaded by l3build...]],
 }
 
 
-
-if not release_date then
-   kpse.set_program_name("kpsewhich")
-   dofile(kpse.lookup("l3build.lua"))
-end
 

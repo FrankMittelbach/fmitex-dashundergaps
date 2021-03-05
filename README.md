@@ -16,7 +16,7 @@ The license is LPPL 1.3c.
 
 -----
 
-Copyright (C) 2018-2020 Frank Mittelbach<br />
+Copyright (C) 2018-2021 Frank Mittelbach<br />
 <https://latex-project.org/> <br />
 All rights reserved.
 

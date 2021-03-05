@@ -1,3 +1,7 @@
+2021-03-05  Frank Mittelbach  <Frank.Mittelbach@latex-project.org>
+
+	* dashundergaps.dtx: xparse now part of the LaTeX kernel
+
 2020-02-11  Frank Mittelbach  <Frank.Mittelbach@latex-project.org>
 
 	* dashundergaps.dtx: Expand argument up front to work around
