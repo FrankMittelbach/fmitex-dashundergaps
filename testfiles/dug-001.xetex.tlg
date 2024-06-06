@@ -1,7 +1,6 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
-(dashundergaps.sty
-(../ulem.sty
+(dashundergaps.sty (../ulem.sty
 \UL@box=\box...
 \UL@hyphenbox=\box...
 \UL@skip=\skip...
@@ -12,37 +11,23 @@ Don't change this file in any respect.
 \ULC@box=\box...
 Package: ulem ....-..-..
 \ULdepth=\dimen...
-)
-(../l3keys2e.sty
-(../expl3.sty
+) (../l3keys2e.sty (../expl3.sty
 Package: expl3 ....-..-.. L3 programming layer (loader) 
 (../l3backend-xetex.def
 File: l3backend-xetex.def ....-..-.. L3 backend support: XeTeX
-(|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count...
-\l__color_backend_stack_int=\count...
 \g__graphics_track_int=\count...
 \l__pdf_internal_box=\box...
-\g__pdf_backend_object_int=\count...
 \g__pdf_backend_annotation_int=\count...
 \g__pdf_backend_link_int=\count...
 ))
 Package: l3keys2e ....-..-.. LaTeX2e option processing using LaTeX3 keys
 )
 Package: dashundergaps ....-..-.. vv... Dashing and underlining phantom text
-LaTeX3 Info: Defining command \gap with sig. 'som' on line ....
-LaTeX3 Info: Defining command \dashundergapssetup with sig. 'm' on line ....
-LaTeX3 Info: Defining command \TeacherModeOn with sig. '' on line ....
-LaTeX3 Info: Defining command \TeacherModeOff with sig. '' on line ....
 \c@gapnumber=\count...
 \c@totalgapnumber=\count...
 \l__fmdug_extend_dim=\dimen...
 \l__fmdug_gap_min_dim=\dimen...
-Package dashundergaps Warning: The option `phantomtext' you used on line ...
-(dashundergaps)                is deprecated and there is no replacement.
-(dashundergaps)                Since I will not guarantee that option
-(dashundergaps)                `phantomtext' will be kept forever I strongly
-(dashundergaps)                encourage you to remove it from your document.
+Package dashundergaps Warning: The option `phantomtext' you used on line ... is deprecated and there is no replacement. Since I will not guarantee that option `phantomtext' will be kept forever I strongly encourage you to remove it from your document.
 )
 Overfull \hbox (6.13483pt too wide) in paragraph at lines 25--27
 []\T1/lmr/m/n/10 Here we have a |   []   |   []   |   []   |   []   |   []   |   []   |   [] (1) in. Miss-ing |   []
@@ -409,6 +394,7 @@ Completed box being shipped out [1]
 ..\vbox(12.0+0.0)x345.0, glue set 12.0fil
 ...\glue 0.0 plus 1.0fil
 ...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
 ..\glue 25.0
 ..\glue(\lineskip) 0.0
 ..\vbox(550.0+0.0)x345.0, glue set 492.0fill
@@ -632,6 +618,7 @@ Completed box being shipped out [1]
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
 ...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 2.0
 ...\hbox(7.5+2.5)x345.0, glue set - 1.0
 ....\hbox(0.0+0.0)x15.0
@@ -852,6 +839,7 @@ Completed box being shipped out [1]
 ....\glue(\rightskip) 0.0
 ...\glue 0.0 plus 1.0fill
 ...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 2.50952
 ...\hbox(6.99048+1.94443)x345.0, glue set 137.75298fil
 ....\glue(\leftskip) 0.0 plus 1.0fil
@@ -878,8 +866,9 @@ Completed box being shipped out [1]
 ...\glue 0.0
 ...\glue 0.0 plus 0.0001fil
 ..\glue(\baselineskip) 23.70276
-..\hbox(6.29724+0.0)x345.0, glue set 170.0fil
-...\glue 0.0 plus 1.0fil
-...\T1/lmr/m/n/10 1
-...\glue 0.0 plus 1.0fil
+..\hbox(6.29724+0.0)x345.0
+...\hbox(6.29724+0.0)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\T1/lmr/m/n/10 1
+....\glue 0.0 plus 1.0fil
 (dug-001.aux)
